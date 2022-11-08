@@ -1,16 +1,16 @@
 import config from '../config.json'
 import styled from 'styled-components';
-import {CSSReset} from '../src/components/CSSReset.js';
+import { CSSReset } from '../src/components/CSSReset.js';
 import Menu from '../src/components/Menu.js';
 import { StyledTimeline } from '../src/components/timeline';
 
 function HomePage() {
-    const estilosDaHomePage = { 
+    const estilosDaHomePage = {
         //backgroundColor: "red"
     };
     return (
         <>
-        <CSSReset/>
+            <CSSReset />
             <div style={estilosDaHomePage}>
                 <Menu />
                 <Header />
@@ -40,10 +40,14 @@ const StyledHeader = styled.div`
 function Header() {
     return (
         <StyledHeader>
-            <img src="banner"></img>
-            <img src={`https://github.com/${config.github}.png`}></img>
-            <h2>{config.nome}</h2>
-            <p>{config.job}</p>
+            {/*<img src="banner"></img>*/}
+            <section className='user-info'>
+                <img src={`https://github.com/${config.github}.png`}></img>
+                <div>
+                    <h2>{config.name}</h2>
+                    <p>{config.job}</p>
+                </div>
+            </section>
         </StyledHeader>
     )
 }
