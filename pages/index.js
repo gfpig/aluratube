@@ -17,7 +17,7 @@ export default function HomePage() {
             <div style={estilosDaHomePage}>
                 <Menu valor = {valor} setvalor = {setvalor} />
                 <Header />
-                <Timeline searchValue = {valor} playlists={config.playlists} />
+                <Timeline searchValue = {valor} playlists={config.playlists} favorites = {config.favorites}/>
             </div>
         </>
     )
@@ -64,6 +64,7 @@ function Header() {
 function Timeline({searchValue, ...props}) {
     //console.log("Dentro do componente", props.playlists);
     const playlistNames = Object.keys(props.playlists);
+    const favoritePeople = Object.keys(props.favorites);
     return (
         <StyledTimeline>
             {playlistNames.map((playlistName) => {
@@ -73,7 +74,7 @@ function Timeline({searchValue, ...props}) {
                 return (
                     <section key= {playlistName}>
                         <h2>{playlistName}</h2>
-                        <div>
+                        <div className='videos'>
                             {videos.filter((video) => {
                                 const titleNormalized = video.title.toLowerCase();
                                 const searchValueNormalized = searchValue.toLowerCase();
@@ -82,14 +83,36 @@ function Timeline({searchValue, ...props}) {
                                 return (
                                     <a key={video.url} href={video.url}>
                                         <img src={video.thumb} />
-                                        <spam>
-                                            {videos.title}
-                                        </spam>
+                                        <span>
+                                            {video.title}
+                                        </span>
                                     </a>
                                 )
                             })}
                         </div>
                     </section>
+                )
+            })}
+            {favoritePeople.map((favs) => {
+                const pessoas = props.favorites[favs];
+                return (
+                    <section key = {favs}>
+                        <h2>{favs}</h2>
+                        <div className="favoritos">
+                            {pessoas.map((pessoas) => {
+                                return (
+                                    <a href = {pessoas.site}>
+                                        <img className = "favs" src={`https://github.com/${pessoas.github}.png`}></img>
+                                        <span>
+                                            {pessoas.github}
+                                        </span>
+                                    </a>
+                                )
+                            })}
+                        </div>
+                    </section>
+                    
+
                 )
             })}
 

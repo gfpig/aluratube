@@ -1,133 +1,208 @@
 {
     "name": "Gabrielle",
-    "job": ":)",
+    "job": "Estudante",
     "github": "gfpig",
     "bgimagem": "https://images.unsplash.com/photo-1521911528923-9c3838123490?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-    "playlists": {
-        "jogos": [
+    "favorites": {
+        "Favoritos": [
             {
-                "title": "Frostpunk - Neve e Steak tartare",
-                "url": "https://www.youtube.com/watch?v=QsqatJxAUtk",
-                "thumb": "https://img.youtube.com/vi/QsqatJxAUtk/hqdefault.jpg"
+            "github": "andgomes95",
+            "site": "https://aluratube-git-main-andgomes95.vercel.app/"
             },
             {
-                "title": "Frostpunk - Neve e Steak tartare",
-                "url": "https://www.youtube.com/watch?v=O8jtAyPuhNg",
-                "thumb": "https://img.youtube.com/vi/O8jtAyPuhNg/hqdefault.jpg"
+            "github": "LukinhaGabriel",
+            "site": "https://lucasgabrielmoya-aluratube.vercel.app/"
+            }
+        ]
+        
+    },
+    "playlists": {    
+        "lazuLight": [
+            {
+                "title": "LazuLight - Diamond City Lights (Official Music Video) | NIJISANJI EN",
+                "url": "https://www.youtube.com/watch?v=ZnP0cKNPE04",
+                "thumb": "https://img.youtube.com/vi/ZnP0cKNPE04/hqdefault.jpg"
             },
             {
-                "title": "Gas Station Simulator - 8 dias sem dormir!",
-                "url": "https://www.youtube.com/watch?v=R1d0DyRDG_Q",
-                "thumb": "https://img.youtube.com/vi/R1d0DyRDG_Q/hqdefault.jpg"
+                "title": " 【Virtual to LIVE】LAZULIGHT INTO SPACE ver. #Lazu1ightAnniversary ",
+                "url": "https://www.youtube.com/watch?v=YS4hXn41ns8",
+                "thumb": "https://img.youtube.com/vi/YS4hXn41ns8/hqdefault.jpg"
             },
             {
-                "title": "Gartic Phone - Não assista a esse NerdPlayer!",
-                "url": "https://www.youtube.com/watch?v=0oJQUs5oRiM",
-                "thumb": "https://img.youtube.com/vi/0oJQUs5oRiM/hqdefault.jpg"
+                "title": "TSUNAMI - Finana Ryugu (Original MV)",
+                "url": "https://www.youtube.com/watch?v=3i_TLQsaAgU",
+                "thumb": "https://img.youtube.com/vi/3i_TLQsaAgU/hqdefault.jpg"
             },
             {
-                "title": "Netdecking Estraga o Magic?",
-                "url": "https://www.youtube.com/watch?v=dXihyhYEsEc",
-                "thumb": "https://img.youtube.com/vi/dXihyhYEsEc/hqdefault.jpg"
+                "title": "Goodbye Sengen／ver.Elira Pendora",
+                "url": "https://www.youtube.com/watch?v=pjFrQ8q_taE",
+                "thumb": "https://img.youtube.com/vi/pjFrQ8q_taE/hqdefault.jpg"
             },
             {
-                "title": "Cities: Skylines - EPCOTAB, o futuro de Saint Laurrent",
-                "url": "https://www.youtube.com/watch?v=zybKHMgLCWU",
-                "thumb": "https://img.youtube.com/vi/zybKHMgLCWU/hqdefault.jpg"
+                "title": "【いかないで // Ikanaide】Cover by Pomu Rainpuff",
+                "url": "https://www.youtube.com/watch?v=GbTgZLevLWk",
+                "thumb": "https://img.youtube.com/vi/GbTgZLevLWk/hqdefault.jpg"
             },
             {
-                "title": "We Were Here Together - Os Enigmas deste Mundo",
-                "url": "https://www.youtube.com/watch?v=UKgQsrHUG40",
-                "thumb": "https://img.youtube.com/vi/UKgQsrHUG40/hqdefault.jpg"
+                "title": "CH4NGE / Giga (Cover by Finana Ryugu)",
+                "url": "https://www.youtube.com/watch?v=hho4jtvwP5Q",
+                "thumb": "https://img.youtube.com/vi/hho4jtvwP5Q/hqdefault.jpg"
             },
             {
-                "title": "Microsoft Flight Simulator - Top Gun: Oceania - Missão RJ!",
-                "url": "https://www.youtube.com/watch?v=n3TneUb5c-w",
-                "thumb": "https://img.youtube.com/vi/n3TneUb5c-w/hqdefault.jpg"
+                "title": "Shoujo Rei ／ver. Elira Pendora",
+                "url": "https://www.youtube.com/watch?v=DSSAL2b1VR4",
+                "thumb": "https://img.youtube.com/vi/DSSAL2b1VR4/hqdefault.jpg"
+            },
+            {
+                "title": "【HACKING TO THE GATE】Itou Kanako//Cover by Pomu Rainpuff",
+                "url": "https://www.youtube.com/watch?v=yHR37YELi_U",
+                "thumb": "https://img.youtube.com/vi/yHR37YELi_U/hqdefault.jpg"
+            },
+            {
+                "title": "【Elira Pendora】Love Story - Taylor Swift",
+                "url": "https://www.youtube.com/watch?v=OLGx-abgXHo",
+                "thumb": "https://img.youtube.com/vi/OLGx-abgXHo/hqdefault.jpg"
             }
         ],
-        "front-end": [
+        "obsydia": [
             {
-                "title": "Jogo com JavaScript #01: Criando um Flappy Bird do ZERO!!!",
-                "url": "https://youtube.com/watch?v=jOAU81jdi-c",
-                "thumb": "https://img.youtube.com/vi/jOAU81jdi-c/hqdefault.jpg"
+                "title": "OBSYDIA - Black Out (Official Music Video) | NIJISANJI EN ",
+                "url": "https://www.youtube.com/watch?v=D-V0EHF30rk",
+                "thumb": "https://img.youtube.com/vi/D-V0EHF30rk/hqdefault.jpg"
             },
             {
-                "title": "Jogo com JavaScript #01: Criando um Flappy Bird do ZERO!!!",
-                "url": "https://www.youtube.com/watch?v=llF6vD-RljE",
-                "thumb": "https://img.youtube.com/vi/llF6vD-RljE/hqdefault.jpg"
+                "title": "Virtual to Live - OBSYDIA cover (BETA VERSION)",
+                "url": "https://www.youtube.com/watch?v=18SW6z3MUZw",
+                "thumb": "https://img.youtube.com/vi/18SW6z3MUZw/hqdefault.jpg"
             },
             {
-                "title": "A Primeira Aula de Flutter Que Todo Mundo Deveria Ter",
-                "url": "https://www.youtube.com/watch?v=J4BVaXkwmM8",
-                "thumb": "https://img.youtube.com/vi/J4BVaXkwmM8/hqdefault.jpg"
+                "title": "バラして！！ ROSE ME - Rosemi Lovelock 【OFFICIAL MUSIC VIDEO】",
+                "url": "https://www.youtube.com/watch?v=f91RW3Mk8Dk",
+                "thumb": "https://img.youtube.com/vi/f91RW3Mk8Dk/hqdefault.jpg"
             },
             {
-                "title": "O QUE SÃO FRAMEWORKS E BIBLIOTECAS? QUAIS AS DIFERENÇAS?",
-                "url": "https://www.youtube.com/watch?v=dp0zB4n3MUs",
-                "thumb": "https://img.youtube.com/vi/dp0zB4n3MUs/hqdefault.jpg"
+                "title": "【SCUFFED COVER】Jolly Old Saint Nicholas【NIJISANJI EN | Selen Tatsuki】",
+                "url": "https://www.youtube.com/watch?v=xzUUsSFcF04",
+                "thumb": "https://img.youtube.com/vi/xzUUsSFcF04/hqdefault.jpg"
             },
             {
-                "title": "Angular (O Vídeo que Você Precisava para Começar no Framework) // Dicionário do Programador",
-                "url": "https://www.youtube.com/watch?v=Yf0rC7dERjg",
-                "thumb": "https://img.youtube.com/vi/Yf0rC7dERjg/hqdefault.jpg"
+                "title": "「 That’s Why I Gave Up On Music (だから僕は音楽を辞めた) / Yorushika 」ver. Petra Gurin",
+                "url": "https://www.youtube.com/watch?v=utxsftWwLhg",
+                "thumb": "https://img.youtube.com/vi/utxsftWwLhg/hqdefault.jpg"
             },
             {
-                "title": "Como Foi Programado um App Que Faz Mágica",
-                "url": "https://www.youtube.com/watch?v=I36seuWUe5s",
-                "thumb": "https://img.youtube.com/vi/I36seuWUe5s/hqdefault.jpg"
+                "title": "The Great Rosemi-sama Theme Song",
+                "url": "https://www.youtube.com/watch?v=mXrIBio12vI",
+                "thumb": "https://img.youtube.com/vi/mXrIBio12vI/hqdefault.jpg"
             },
             {
-                "title": "O que todo iniciante em Front End deveria aprender | Como manipular arrays e objetos em JavaScript",
-                "url": "https://www.youtube.com/watch?v=yS7AcF-xRUg",
-                "thumb": "https://img.youtube.com/vi/yS7AcF-xRUg/hqdefault.jpg"
+                "title": "【BGM】Black out Anthem - Selen Tatsuki",
+                "url": "https://www.youtube.com/watch?v=W-nQGLVLcEg",
+                "thumb": "https://img.youtube.com/vi/W-nQGLVLcEg/hqdefault.jpg"
             },
             {
-                "title": "5 Erros Históricos do CSS",
-                "url": "https://www.youtube.com/watch?v=HNjkqONzGS0",
-                "thumb": "https://img.youtube.com/vi/HNjkqONzGS0/hqdefault.jpg"
+                "title": "「 Tokimeki Broker (ときめきブローカー) / P丸様。」ver. Petra Gurin",
+                "url": "https://www.youtube.com/watch?v=JMrv0spiMYs",
+                "thumb": "https://img.youtube.com/vi/JMrv0spiMYs/hqdefault.jpg"
             },
             {
-                "title": "Deploy de Front End ATUALIZADO! | O que eu uso para hospedagem de Front End",
-                "url": "https://www.youtube.com/watch?v=d9c0r-J6CdM",
-                "thumb": "https://img.youtube.com/vi/d9c0r-J6CdM/hqdefault.jpg"
+                "title": "The Great Rosemi-sama Ending Theme",
+                "url": "https://www.youtube.com/watch?v=p0yvR2aGi1w",
+                "thumb": "https://img.youtube.com/vi/p0yvR2aGi1w/hqdefault.jpg"
             }
         ],
-        "back-end": [
+        "ethyria": [
             {
-                "title": "Node JS: Construindo CRUDs com file system focando em serialização e JSON",
-                "url": "https://www.youtube.com/watch?v=dvd3pNYh7So",
-                "thumb": "https://img.youtube.com/vi/dvd3pNYh7So/hqdefault.jpg"
+                "title": "Ethyria - God sees all (Official Music Video) | NIJISANJI EN",
+                "url": "https://www.youtube.com/watch?v=JtFpa3LWA_U",
+                "thumb": "https://img.youtube.com/vi/JtFpa3LWA_U/hqdefault.jpg"
+            },    
+            {
+                "title": "【Virtual to LIVE】Ethyria World Edition",
+                "url": "https://www.youtube.com/watch?v=aji4KBCadng",
+                "thumb": "https://img.youtube.com/vi/aji4KBCadng/hqdefault.jpg"
+            },   
+            {
+                "title": "【KING】ver. Enna Alouette",
+                "url": "https://www.youtube.com/watch?v=phjWw9mdQyg",
+                "thumb": "https://img.youtube.com/vi/phjWw9mdQyg/hqdefault.jpg"
             },
             {
-                "title": "Node JS: Construindo CRUDs com file system focando em serialização e JSON",
-                "url": "https://www.youtube.com/watch?v=8q36rNS5yVo",
-                "thumb": "https://img.youtube.com/vi/8q36rNS5yVo/hqdefault.jpg"
+                "title": "【Original】Sana ako na lang✨ ☆⭒NIJISANJI EN ✧ Millie Parfait ☆⭒",
+                "url": "https://www.youtube.com/watch?v=EgukS75O20I",
+                "thumb": "https://img.youtube.com/vi/EgukS75O20I/hqdefault.jpg"
             },
             {
-                "title": "O que é o Java? #HipstersPontoTube",
-                "url": "https://www.youtube.com/watch?v=90NcVNsKGik",
-                "thumb": "https://img.youtube.com/vi/90NcVNsKGik/hqdefault.jpg"
+                "title": "ETHYRIA (original soundtrack) Enna Alouette × keiki",
+                "url": "https://www.youtube.com/watch?v=2SZbnGJAymg",
+                "thumb": "https://img.youtube.com/vi/2SZbnGJAymg/hqdefault.jpg"
             },
             {
-                "title": "O que é Machine Learning? #HipstersPontoTube",
-                "url": "https://www.youtube.com/watch?v=Iuz_jc96bQk",
-                "thumb": "https://img.youtube.com/vi/Iuz_jc96bQk/hqdefault.jpg"
+                "title": "Sana ako na lang / I wish it was me【Spanish ver. Reimu Endou | NIJISANJI EN 】",
+                "url": "https://www.youtube.com/watch?v=27WrRlaQHBA",
+                "thumb": "https://img.youtube.com/vi/27WrRlaQHBA/hqdefault.jpg"
             },
             {
-                "title": "A MELHOR linguagem de programação com Fabio Akita | #HipstersPontoTube",
-                "url": "https://www.youtube.com/watch?v=imB0QVoNrGc",
-                "thumb": "https://img.youtube.com/vi/imB0QVoNrGc/hqdefault.jpg"
+                "title": "【Identity/アイデンティティ 】Millie&Enna ver. ✨ ☆⭒NIJISANJI EN ✧",
+                "url": "https://www.youtube.com/watch?v=OYL_a_HZzLY",
+                "thumb": "https://img.youtube.com/vi/OYL_a_HZzLY/hqdefault.jpg"
             },
             {
-                "title": "Top 5 libs que todo aplicativo Android deve ter com Alex Felipe | #HipstersPontoTube",
-                "url": "https://www.youtube.com/watch?v=ldRbnpy-qQs",
-                "thumb": "https://img.youtube.com/vi/ldRbnpy-qQs/hqdefault.jpg"
+                "title": "ラブレター (Love Letter) ft. Ethyria【ver. Reimu Endou | NIJISANJI EN 】",
+                "url": "https://www.youtube.com/watch?v=b9GDx-N8OdM",
+                "thumb": "https://img.youtube.com/vi/b9GDx-N8OdM/hqdefault.jpg"
             },
             {
-                "title": "O que é o C#? #HipstersPontoTube",
-                "url": "https://www.youtube.com/watch?v=0JWMVc1CqpA",
-                "thumb": "https://img.youtube.com/vi/0JWMVc1CqpA/hqdefault.jpg"
+                "title": "【フォニイ / phony】Millie ver. ✨ ☆⭒NIJISANJI EN ✧ Millie Parfait ☆⭒",
+                "url": "https://www.youtube.com/watch?v=ZG98OwLAD70",
+                "thumb": "https://img.youtube.com/vi/ZG98OwLAD70/hqdefault.jpg"
+            }
+        ],
+        "luxiem": [
+            {
+                "title": "Luxiem - Hope in the dark (Official Music Video) | NIJISANJI EN ",
+                "url": "https://www.youtube.com/watch?v=W7SKtUCGYQk",
+                "thumb": "https://img.youtube.com/vi/W7SKtUCGYQk/hqdefault.jpg"
+            },
+            {
+                "title": "「Jazz on the Clock!!」Luxiem 2nd single (Official Music Video) | NIJISANJI EN",
+                "url": "https://www.youtube.com/watch?v=D66eHXt19dY",
+                "thumb": "https://img.youtube.com/vi/D66eHXt19dY/hqdefault.jpg"
+            },
+            {
+                "title": "マフィア (Mafia) / wotaku【Luca Kaneshiro Cover】",
+                "url": "https://www.youtube.com/watch?v=3Flh0wvMnBI",
+                "thumb": "https://img.youtube.com/vi/3Flh0wvMnBI/hqdefault.jpg"
+            },
+            {
+                "title": "Chronos / Cepheid【Ike Eveland Cover】",
+                "url": "https://www.youtube.com/watch?v=sy8N7Rnnx-s",
+                "thumb": "https://img.youtube.com/vi/sy8N7Rnnx-s/hqdefault.jpg"
+            },
+            {
+                "title": "【FANMV】Villain | Shu Yamino 【NIJISANJI EN】read desc.",
+                "url": "https://www.youtube.com/watch?v=d4MfWKnacDc",
+                "thumb": "https://img.youtube.com/vi/d4MfWKnacDc/hqdefault.jpg"
+            },
+            {
+                "title": "フォニイ (phony) / Luca Kaneshiro Cover",
+                "url": "https://www.youtube.com/watch?v=jwzFXkPf2mY",
+                "thumb": "https://img.youtube.com/vi/jwzFXkPf2mY/hqdefault.jpg"
+            },
+            {
+                "title": "ENVY BABY / Mysta Rias ver.",
+                "url": "https://www.youtube.com/watch?v=Aww_mrL08xI",
+                "thumb": "https://img.youtube.com/vi/Aww_mrL08xI/hqdefault.jpg"
+            },
+            {
+                "title": "MAYDAY / coldrain【加賀美ハヤト × Ike Eveland Cover】",
+                "url": "https://www.youtube.com/watch?v=_80-LmuzD6k",
+                "thumb": "https://img.youtube.com/vi/_80-LmuzD6k/hqdefault.jpg"
+            },
+            {
+                "title": "ラブカ？(Love Ka?) / Shu Yamino Ver [FANMADE MV]",
+                "url": "https://www.youtube.com/watch?v=gQS67dReVfw",
+                "thumb": "https://img.youtube.com/vi/gQS67dReVfw/hqdefault.jpg"
             }
         ]
     }

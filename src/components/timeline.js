@@ -28,9 +28,7 @@ export const StyledTimeline = styled.div`
       width: calc(100vw - 16px * 4);
       display: grid;
       grid-gap: 16px;
-      grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
       grid-auto-flow: column;
-      grid-auto-columns: minmax(200px,1fr);
       overflow-x: scroll;
       scroll-snap-type: x mandatory;
       a {
@@ -41,6 +39,27 @@ export const StyledTimeline = styled.div`
           padding-right: 24px;
           color: ${({ theme }) => theme.textColorBase || "#222222"};
         }
+      }
+    }
+
+    .videos {
+      grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+      grid-auto-columns: minmax(200px,1fr);
+    }
+
+    .favoritos {
+      grid-template-columns: repeat(auto-fill,minmax(100px,1fr));
+      grid-auto-columns: minmax(100px,1fr);
+      .favs{
+        aspect-ratio: 0;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        clip-path: circle
+      }
+      span {
+        font-size: 14px;
+        text-align: center;
       }
     }
   }
