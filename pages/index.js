@@ -1,6 +1,6 @@
 import config from '../config.json'
 import styled from 'styled-components';
-import { CSSReset } from '../src/components/CSSReset.js';
+
 import Menu from '../src/components/Menu/index.js';
 import { StyledTimeline } from '../src/components/timeline';
 import React from 'react';
@@ -13,7 +13,6 @@ export default function HomePage() {
     const [valor, setvalor] = React.useState("");
     return (
         <>
-            <CSSReset />
             <div style={estilosDaHomePage}>
                 <Menu valor = {valor} setvalor = {setvalor} />
                 <Header />
@@ -31,6 +30,8 @@ const StyledBanner = styled.div`
 `;
 
 const StyledHeader = styled.div`
+    background-color: ${({theme}) => theme.backgroundLevel1};
+
   img {
     width: 80px;
     height: 80px;
