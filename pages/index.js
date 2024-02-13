@@ -1,22 +1,39 @@
 import config from '../config.json'
 import styled from 'styled-components';
-
 import Menu from '../src/components/Menu/index.js';
 import { StyledTimeline } from '../src/components/timeline';
 import React from 'react';
-
+import { videoService } from '../src/services/videoService';
 
 export default function HomePage() {
+    const service = videoService();
     const estilosDaHomePage = {
         //backgroundColor: "red"
     };
     const [valor, setvalor] = React.useState("");
+    const [playlists, setPlaylists] = React.useState({});
+
+    React.useEffect(() => {
+            service.getAllVideos()
+            .then ((dados) => {
+                console.log(dados.data);
+                const novasPlaylists = {...playlists};
+                dados.data.forEach((videos) => {
+                    if(!novasPlaylists[videos.playlist]) {
+                        novasPlaylists[videos.playlist] = [];
+                    }
+                    novasPlaylists[videos.playlist].push(videos);
+                })
+                setPlaylists(novasPlaylists);
+            });
+    }, []);
+    
     return (
         <>
             <div style={estilosDaHomePage}>
                 <Menu valor = {valor} setvalor = {setvalor} />
                 <Header />
-                <Timeline searchValue = {valor} playlists={config.playlists} favorites = {config.favorites}/>
+                <Timeline searchValue = {valor} playlists={playlists} favorites = {config.favorites}/>
             </div>
         </>
     )
@@ -69,6 +86,7 @@ function Timeline({searchValue, ...props}) {
     return (
         <StyledTimeline>
             {playlistNames.map((playlistName) => {
+                //const videos = props.playlists[playlistName];
                 const videos = props.playlists[playlistName];
                 //console.log(playlistName);
                 //console.log(videos);
@@ -77,7 +95,7 @@ function Timeline({searchValue, ...props}) {
                         <h2>{playlistName}</h2>
                         <div className='videos'>
                             {videos.filter((video) => {
-                                const titleNormalized = video.title.toLowerCase();
+                                const titleNormalized = video.Title.toLowerCase();
                                 const searchValueNormalized = searchValue.toLowerCase();
                                 return titleNormalized.includes(searchValueNormalized)
                             }).map((video) => {
@@ -85,7 +103,7 @@ function Timeline({searchValue, ...props}) {
                                     <a key={video.url} href={video.url}>
                                         <img src={video.thumb} />
                                         <span>
-                                            {video.title}
+                                            {video.Title}
                                         </span>
                                     </a>
                                 )
